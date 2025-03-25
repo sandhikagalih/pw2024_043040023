@@ -28,7 +28,7 @@ $mahasiswa = [
   <ul>
     <?php foreach ($mahasiswa as $m) : ?>
       <li>
-        <a href="latihan4.php?nama=<?= $m['nama']; ?>">
+        <a href="latihan4.php?nama=<?= $m['nama']; ?>&nim=<?= $m['nim']; ?>&email=<?= $m['email']; ?>&jurusan=<?= $m['jurusan']; ?>">
           <?= $m['nama']; ?>
         </a>
       </li>
