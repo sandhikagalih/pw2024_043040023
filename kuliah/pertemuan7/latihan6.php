@@ -10,10 +10,10 @@
 <body>
   <h2>Detail Mahasiswa</h2>
   <ul>
-    <li>Nama: <?= ($_GET['nama'] ?? 'Unknown'); ?></li>
-    <li>NIM: <?= ($_GET['nim'] ?? 'Unknown'); ?></li>
-    <li>Email: <?= ($_GET['email'] ?? 'Unknown'); ?></li>
-    <li>Jurusan: <?= ($_GET['jurusan'] ?? 'Unknown'); ?></li>
+    <li>Nama: <?= ($_POST['nama'] ?? 'Unknown'); ?></li>
+    <li>NIM: <?= ($_POST['nim'] ?? 'Unknown'); ?></li>
+    <li>Email: <?= ($_POST['email'] ?? 'Unknown'); ?></li>
+    <li>Jurusan: <?= ($_POST['jurusan'] ?? 'Unknown'); ?></li>
   </ul>
 </body>
 
